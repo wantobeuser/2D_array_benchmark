@@ -1,17 +1,18 @@
-# 2D_array_bench (Total 9 benchmarks)
-  - bus_design_XX
-      - bus_XX_def.tar.gz
-      - bus_XX.png
-        
-# Normal_bench (Total 9 comparisons)
-  - bus_design_XX
-      - bus_XX_def.tar.gz
-      - bus_XX.png
-   
 # Benchmark Description
 To emulate a practical HBM4 routing environment, we developed a new bus routing benchmark by extending the ICCAD 2018 benchmark[1]. We provide a set of 18 routing benchmarks designed to evaluate bus routing under different I/O port configurations:
-- 9 benchmarks with conventional boundary I/O ports
-- 9 benchmarks with 2D-array I/O port structures
+  
+### 2D_array_bench (Total 9 benchmarks)
+  - bus_design_XX
+      - bus_XX_def.tar.gz
+      - bus_XX.png
+  - 9 benchmarks with 2D-array I/O port structures
+        
+### Normal_bench (Total 9 comparisons)
+  - bus_design_XX
+      - bus_XX_def.tar.gz
+      - bus_XX.png
+  - 9 benchmarks with conventional boundary I/O ports
+        
 These benchmarks are derived from the original bus and blockage patterns and extended to introduce a 2D port placement scheme. All benchmark layouts were implemented using a commercial Place-and-Route (P&R) tool. The 2D I/O benchmarks were constructed through custom DEF generation.
 
 ## Bus Configuration
