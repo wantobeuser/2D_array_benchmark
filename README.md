@@ -32,7 +32,9 @@ Each benchmark includes combinations of four bus widths:
 - pins are located on M5.
 - Routing blockages are inserted on M3 and M4 to represent already-utilized routing resources from logic placement, effectively constraining available routing space for buses.
 
-<img src="Table.png" alt="My Table" width=500 legnth=500>
+<p align="center">
+  <img src="Table.png" alt="My Table" width=500 legnth=500>
+</p>
 
 # Reference
 [1] A. Liao, H. Chang, O. Chi, and J. Wang. (2018). ”ICCAD 2018 CAD Contest Obstacle-Aware On-Track Bus Routing” [Online]. Available: http://iccad-contest.org/2018/Problem B/2018ICCADContest ProblemB.pdf
