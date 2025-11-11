@@ -1,7 +1,7 @@
 # Benchmark Description
-To emulate a new bus routing challenges(e.g., 2D-placed bus pins), we developed a new bus routing benchmark by extending the ICCAD 2018 benchmark[1]. We provide a set of 18 routing benchmarks designed to evaluate bus routing under different I/O pin configurations:
+To emulate a new bus routing challenges(e.g., 2D-placed bus pins), we developed a new bus routing benchmark by extending the ICCAD 2018 benchmark[1]. First, we construct nine distinct netlists varying in bus width/count configurations. Then for each netlist, we create two floorplan variants, 1D-placed and 2D-placed by changing chip width, width, height, pin placement, and routing blockages. The 1D set is included specifically to highlight that the 2D pin placement exhibits larger intra-bus HPWL variation compared to the 1D case. In total, we provide a set of 18 routing benchmarks designed to evaluate bus routing under different I/O pin configurations:
 
-### 1D_placed_designs (Total 9 comparisons)
+### 1D_placed_designs (Total 9 benchmarks)
   - bus_design_XX
       - bus_XX_def.tar.gz
       - bus_XX.png
@@ -31,6 +31,8 @@ Each benchmark includes combinations of four bus widths:
 - Routing uses four metal layers (M3–M6).
 - pins are located on M5.
 - Routing blockages are inserted on M3 and M4 to represent already-utilized routing resources from logic placement, effectively constraining available routing space for buses.
+
+![table](Table.png)
 
 # Reference
 [1] A. Liao, H. Chang, O. Chi, and J. Wang. (2018). ”ICCAD 2018 CAD Contest Obstacle-Aware On-Track Bus Routing” [Online]. Available: http://iccad-contest.org/2018/Problem B/2018ICCADContest ProblemB.pdf
